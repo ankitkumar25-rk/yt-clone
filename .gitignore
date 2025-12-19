@@ -24,7 +24,7 @@ Thumbs.db
 *.bak
 *.tmp
 *.swp
-*pswd
+*pswd.txt
 
 # IDE and editor generated files
 .idea/
