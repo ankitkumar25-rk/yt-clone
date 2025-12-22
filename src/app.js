@@ -43,5 +43,15 @@ request ke cookies ko
 read (parse) karne me madad karti hai
 */
 
+// routes import
+
+import userRouter from "./routes/user.routes.js";
+
+// routes declaration
+
+app.use("/api/v1/users", userRouter);
+
+// http://localhost:8000/api/v1/users/register url aise banega
+
 export default app;
 // export {app}
